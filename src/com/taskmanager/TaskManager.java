@@ -18,7 +18,7 @@ public class TaskManager {
         Connection connection= null;
 
         try{
-            connection= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/taskmanager","root","User1234@");
+            connection= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/taskmanager","username","password");
         }
         catch(SQLException e){
             e.printStackTrace();
